@@ -86,6 +86,14 @@ carl.begin_fill()
 triangle(carl, 20)
 carl.end_fill()
 
+bill.penup()
+bob.penup()
+carl.penup()
+dave.penup()
+bill.forward(300)
+dave.forward(300)
+carl.forward(400)
+bob.forward(300)
 
 
 turtle.exitonclick()
