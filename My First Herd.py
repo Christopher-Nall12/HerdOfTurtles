@@ -95,5 +95,19 @@ dave.forward(300)
 carl.forward(400)
 bob.forward(300)
 
+dave.goto(-150, 150)
+dave.backward(50)
+dave.left(115)
+dave.pensize(2)
+dave.pendown()
+dave.forward(100)
+dave.penup()
+dave.right(20)
+dave.forward(120)
+dave.pendown()
+dave.right(30)
+dave.forward(100)
+
+
 
 turtle.exitonclick()
