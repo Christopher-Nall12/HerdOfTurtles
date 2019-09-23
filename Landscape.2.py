@@ -1,5 +1,7 @@
 import turtle
 
+turtle.speed(2000)
+
 bob = turtle.Turtle()
 billy = turtle.Turtle()
 
@@ -28,10 +30,31 @@ def square(turtle, side):
         billy.forward(100)
         billy.right(90)
 
-
-
+billy.fillcolor("firebrick")
+billy.begin_fill()
 square(turtle, 75)
+billy.end_fill()
 
+billy.fillcolor("dark slate grey")
+billy.penup()
+billy.right(90)
+billy.forward(100)
+billy.right(90)
+billy.pendown()
+billy.begin_fill()
+billy.forward(25)
+billy.backward(145)
+billy.left(60)
+billy.forward(145)
+billy.right(120)
+billy.forward(145)
+billy.end_fill()
+billy.penup()
+
+
+bob.penup()
+bob.left(90)
+bob.forward(250)
 
 
 turtle.exitonclick()
