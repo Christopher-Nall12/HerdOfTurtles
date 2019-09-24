@@ -54,7 +54,26 @@ billy.penup()
 
 bob.penup()
 bob.left(90)
-bob.forward(250)
+bob.forward(245)
+bob.right(90)
+bob.pendown()
+bob.forward(50)
+bob.left(90)
+bob.forward(25)
+bob.left(90)
+bob.forward(50)
+bob.penup()
+
+
+billy.goto(0, 0)
+billy.penup()
+billy.right(120)
+billy.right(90)
+billy.pendown()
+billy.forward(300)
+billy.right(90)
+billy.forward(50)
+
 
 
 turtle.exitonclick()
